@@ -7,12 +7,6 @@
 }
 
 %reset-box-model {
-  // top: auto;
-  // right: auto;
-  // bottom: auto;
-  // left: auto;
-  // width: auto;
-  // height: auto;
   margin: 0;
   padding: 0;
   border: 0;
@@ -40,6 +34,13 @@
 
 %reset-box-sizing, &::after, &::before {
   box-sizing: border-box;
+}
+
+%reset-position {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 // ====
