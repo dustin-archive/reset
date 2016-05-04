@@ -25,7 +25,9 @@
   // background-blend-mode: none;
 }
 
+// Using the shorthand `border` property will undo this reset
 %reset-border {
+  // border-width: 0;
   border-style: solid;
   border-color: transparent;
 }
