@@ -13,7 +13,7 @@ blockquote {
 }
 
 button {
-  @extend %reset-user-select-none;
+  @extend %reset-user-select;
 }
 
 code {
