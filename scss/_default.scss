@@ -12,7 +12,19 @@
   border: 0;
 }
 
-// Using the shorthand `border` property will override this reset
+// Using the shorthand `background` property will undo this reset
+%reset-background {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  // background-image: none;
+  background-size: cover;
+  // background-clip: none;
+  // background-origin: none;
+  // background-attachment: none;
+  // background-blend-mode: none;
+}
+
 %reset-border {
   border-style: solid;
   border-color: transparent;
@@ -37,12 +49,7 @@
   @extend %reset-box-sizing;
   @extend %reset-font-smoothing;
   position: relative;
-
   color: inherit;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   word-wrap: break-word;
 
   // &::before, &::after {
