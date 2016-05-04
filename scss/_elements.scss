@@ -2,52 +2,6 @@ a {
   @extend %reset-anchor-decoration;
 }
 
-blockquote {
-  @extend %reset-gray;
-  @extend %reset-padding;
-  border-left: em(4) $gray-2;
-}
-
 button {
   @extend %reset-user-select;
-}
-
-code {
-  padding: em(2 4);
-}
-
-fieldset {
-  @extend %reset-border;
-}
-
-input {
-  &[type='password'] {
-    @extend %reset-border;
-  }
-
-  &[type='submit'] {
-    @extend %reset-border;
-  }
-
-  &[type='text'] {
-    @extend %reset-border;
-  }
-}
-
-figure {
-  @extend %reset-gray;
-  padding: em(4 32);
-}
-
-img {
-  width: 100%;
-}
-
-pre {
-  @extend %reset-padding;
-}
-
-textarea {
-  @extend %reset-border;
-  height: em(64);
 }
