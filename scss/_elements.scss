@@ -1,9 +1,5 @@
 a {
-  text-decoration: none;
-
-  &:hover, &:focus, &:active {
-    text-decoration: underline;
-  }
+  @extend %reset-anchor-decoration;
 }
 
 blockquote {

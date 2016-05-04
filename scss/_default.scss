@@ -1,5 +1,13 @@
 @charset 'UTF-8';
 
+%reset-anchor-decoration {
+  text-decoration: none;
+
+  &:hover, &:focus, &:active {
+    text-decoration: underline;
+  }
+}
+
 %reset-box-model {
   // top: auto;
   // right: auto;
