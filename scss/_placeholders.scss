@@ -1,3 +1,49 @@
+%reset-anchor-decoration {
+  text-decoration: none;
+
+  &:hover, &:focus, &:active {
+    text-decoration: underline;
+  }
+}
+
+%reset-box-model {
+  // top: auto;
+  // right: auto;
+  // bottom: auto;
+  // left: auto;
+  // width: auto;
+  // height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+// Using the shorthand `background` property will undo this reset
+%reset-background {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  // background-image: none;
+  background-size: cover;
+  // background-clip: none;
+  // background-origin: none;
+  // background-attachment: none;
+  // background-blend-mode: none;
+}
+
+// Using the shorthand `border` property will undo this reset
+%reset-border {
+  // border-width: 0;
+  border-style: solid;
+  border-color: transparent;
+}
+
+%reset-box-sizing, &::after, &::before {
+  box-sizing: border-box;
+}
+
+// ====
+
 %reset-border {
   padding: em(2 14);
   border: em(2) solid $gray-3;
