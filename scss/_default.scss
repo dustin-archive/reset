@@ -32,13 +32,8 @@
   border-color: transparent;
 }
 
-%reset-box-sizing {
+%reset-box-sizing, &::after, &::before {
   box-sizing: border-box;
-
-  &::after,
-  &::before {
-    box-sizing: border-box;
-  }
 }
 
 %reset-font-smoothing {
