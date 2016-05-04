@@ -47,6 +47,7 @@
 }
 
 * {
+  @extend %reset-background;
   @extend %reset-box-model;
   @extend %reset-box-sizing;
   @extend %reset-font-smoothing;
