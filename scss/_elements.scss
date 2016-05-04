@@ -13,8 +13,7 @@ blockquote {
 }
 
 button {
-  -moz-user-select: none;
-  -webkit-user-select: none;
+  @extend %reset-user-select-none;
 }
 
 code {

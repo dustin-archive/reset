@@ -41,6 +41,11 @@
   -webkit-font-smoothing: antialiased;
 }
 
+%reset-user-select-none {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
 * {
   @extend %reset-box-model;
   @extend %reset-box-sizing;
