@@ -6,7 +6,10 @@
   @extend %reset-box-sizing;
   @extend %reset-font-smoothing;
   position: relative;
+
+  // Force achors to inherit color
   color: inherit;
+
   word-wrap: break-word;
 
   // &::before, &::after {
