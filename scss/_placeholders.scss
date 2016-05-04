@@ -12,7 +12,7 @@
   border: 0;
 }
 
-// Using the shorthand `background` property will undo this reset
+// Using the `background` shorthand property will undo this reset
 %reset-background {
   background-color: transparent;
   background-position: center;
@@ -25,7 +25,7 @@
   // background-blend-mode: none;
 }
 
-// Using the shorthand `border` property will undo this reset
+// Using the `border` shorthand property will undo this reset
 %reset-border {
   // border-width: 0;
   border-style: solid;
