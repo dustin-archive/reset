@@ -1,0 +1,22 @@
+{
+  "name": "pilot-reset",
+  "homepage": "https://github.com/pilot-boilerplate/reset",
+  "authors": [
+    "Dustin Dowell <dustindowell22@gmail.com>"
+  ],
+  "description": "",
+  "main": "scss/main.scss",
+  "keywords": [
+    "pilot",
+    "boilerplate",
+    "reset",
+    "css",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ]
+}
