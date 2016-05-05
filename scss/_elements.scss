@@ -3,5 +3,5 @@ a {
 }
 
 button {
-  @extend %reset-user-select;
+  @extend %reset-user-select-none;
 }
