@@ -7,8 +7,8 @@
   @extend %reset-font-smoothing;
   position: relative;
 
-  // Force achors to inherit color
-  color: inherit;
+  color: inherit; // Force achors to inherit color
+  font: inherit;  // Force inputs to inherit font
 
   word-wrap: break-word;
 

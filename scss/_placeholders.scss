@@ -14,7 +14,7 @@
 
 // Using the `background` shorthand property will undo this reset
 %reset-background {
-  background-color: transparent;
+  background-color: transparent; // For inputs to have transparent backgrounds
   background-position: center;
   background-repeat: no-repeat;
   // background-image: none;
