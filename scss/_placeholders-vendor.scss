@@ -6,4 +6,16 @@
 %reset-user-select-none {
   -moz-user-select: none;
   -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@mixin reset-font-smoothing {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin reset-user-select-none {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
