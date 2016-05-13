@@ -42,6 +42,11 @@
   overflow: hidden;
 }
 
+%reset-font-inherit {
+  color: inherit; // Force achors to inherit color
+  font: inherit;  // Force inputs to inherit font
+}
+
 %reset-position {
   top: 0;
   right: 0;
