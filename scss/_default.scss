@@ -5,10 +5,9 @@
   @extend %reset-box-model;
   @extend %reset-box-sizing;
   @extend %reset-font-smoothing;
-  position: relative;
-
   @extend %reset-font-inherit;
 
+  position: relative;
   word-wrap: break-word;
 
   // &::before, &::after {
