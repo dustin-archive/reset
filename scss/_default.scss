@@ -1,11 +1,11 @@
 @charset 'UTF-8';
 
 * {
-  @extend %reset-background;
-  @extend %reset-box-model;
-  @extend %reset-box-sizing;
-  @extend %reset-font-smoothing;
-  @extend %reset-font-inherit;
+  @include reset-background;
+  @include reset-box-model;
+  @include reset-box-sizing;
+  @include reset-font-smoothing;
+  @include reset-font-inherit;
 
   position: relative;
   word-wrap: break-word;

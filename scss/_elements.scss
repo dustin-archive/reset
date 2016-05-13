@@ -1,7 +1,7 @@
 a {
-  @extend %reset-anchor-decoration;
+  @include reset-anchor-decoration;
 }
 
 button {
-  @extend %reset-user-select-none;
+  @include reset-user-select-none;
 }

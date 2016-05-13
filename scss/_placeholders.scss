@@ -1,4 +1,4 @@
-%reset-anchor-decoration {
+@mixin reset-anchor-decoration {
   text-decoration: none;
 
   &:hover, &:active {
@@ -6,14 +6,14 @@
   }
 }
 
-%reset-box-model {
+@mixin reset-box-model {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
 // Using the `background` shorthand property will undo this reset
-%reset-background {
+@mixin reset-background {
   background-color: transparent; // For inputs to have transparent backgrounds
   background-position: center;
   background-repeat: no-repeat;
@@ -26,28 +26,30 @@
 }
 
 // Using the `border` shorthand property will undo this reset
-%reset-border {
+@mixin reset-border {
   // border-width: 0;
   // border-style: solid;
   border-color: transparent;
 }
 
-%reset-box-sizing, &::after, &::before {
-  box-sizing: border-box;
+@mixin reset-box-sizing {
+  &::after, &::before {
+    box-sizing: border-box;
+  }
 }
 
-%reset-ellipsis {
+@mixin reset-ellipsis {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 
-%reset-font-inherit {
+@mixin reset-font-inherit {
   color: inherit; // Force achors to inherit color
   font: inherit;  // Force inputs to inherit font
 }
 
-%reset-position {
+@mixin reset-position {
   top: 0;
   right: 0;
   bottom: 0;
