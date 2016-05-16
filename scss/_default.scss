@@ -21,10 +21,6 @@ body {
   }
 }
 
-a {
-  text-decoration: inherit;
-}
-
 button {
   @include reset-user-select-none;
 }
