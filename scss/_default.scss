@@ -1,12 +1,5 @@
 @charset 'UTF-8';
 
-body, body * {
-  all: initial;
-
-  @include reset-font-smoothing;
-  word-wrap: break-word;
-}
-
 body {
   position: absolute;
   width: 100%;
@@ -14,10 +7,19 @@ body {
   font: 1em/1 sans-serif;
   box-sizing: border-box;
 
-  * {
+  &, * {
     @include reset-box-sizing;
+    @include reset-font-smoothing;
+    word-wrap: break-word;
+  }
+
+  * {
     position: relative;
   }
+}
+
+a {
+  text-decoration: inherit;
 }
 
 button {
