@@ -44,9 +44,10 @@
   overflow: hidden;
 }
 
-@mixin reset-font-inherit {
-  color: inherit; // Force achors to inherit color
-  font: inherit;  // Force inputs to inherit font
+@mixin reset-text-inherit {
+  color: inherit;           // For achors to inherit
+  font: inherit;            // For inputs to inherit
+  text-decoration: inherit; // For achors to inherit
 }
 
 @mixin reset-position {
