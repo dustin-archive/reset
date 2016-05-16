@@ -6,12 +6,12 @@ body {
   height: 100%;
   font: 1em/1 sans-serif;
   box-sizing: border-box;
+  word-wrap: break-word;
 
   &, * {
     @include reset-box-model;
     @include reset-box-sizing;
     @include reset-font-smoothing;
-    word-wrap: break-word;
     @include reset-text-inherit;
   }
 
