@@ -1,5 +1,14 @@
 @charset 'UTF-8';
 
+* {
+  @include reset-background;
+  @include reset-box-model;
+  @include reset-box-sizing;
+  @include reset-font-smoothing;
+  @include reset-text-inherit;
+  position: relative;
+}
+
 body {
   position: absolute;
   width: 100%;
@@ -7,18 +16,6 @@ body {
   font: 1em/1 sans-serif;
   box-sizing: border-box;
   word-wrap: break-word;
-
-  &, * {
-    @include reset-background;
-    @include reset-box-model;
-    @include reset-box-sizing;
-    @include reset-font-smoothing;
-    @include reset-text-inherit;
-  }
-
-  * {
-    position: relative;
-  }
 }
 
 button {
