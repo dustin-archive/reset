@@ -12,7 +12,7 @@
   border: 0;
 }
 
-// Using the `background` shorthand property will undo this reset
+// Using the `background` property will undo this reset
 @mixin reset-background {
   background-color: transparent; // For inputs to have transparent backgrounds
   background-position: center;
@@ -25,7 +25,7 @@
   // background-blend-mode: none;
 }
 
-// Using the `border` shorthand property will undo this reset
+// Using the `border` property will undo this reset
 @mixin reset-border {
   // border-width: 0;
   // border-style: solid;
