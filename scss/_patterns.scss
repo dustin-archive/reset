@@ -33,7 +33,7 @@
 }
 
 @mixin reset-box-sizing {
-  &::after, &::before {
+  &, &::after, &::before {
     box-sizing: border-box;
   }
 }
