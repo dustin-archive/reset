@@ -27,7 +27,7 @@
 
 // Using the `border` property will undo this reset
 @mixin reset-border {
-  // border-width: 0;
+  border-width: 0;
   // border-style: solid;
   border-color: transparent;
 }
@@ -54,4 +54,12 @@
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+@mixin reset-pseudo-elements {
+  &::before, &::after {
+    position: absolute;
+    width: 100%; // display: block instead?
+    content: '';
+  }
 }

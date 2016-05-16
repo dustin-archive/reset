@@ -1,39 +1,25 @@
 @charset 'UTF-8';
 
-* {
-  @include reset-background;
-  @include reset-box-model;
-  @include reset-box-sizing;
-  @include reset-font-smoothing;
-  @include reset-font-inherit;
-
-  position: relative;
-  word-wrap: break-word;
-
-  // &::before, &::after {
-  //   position: absolute;
-  //   width: 100%;
-  //   content: '';
-  // }
-}
-
 body {
+  &, & * {
+    all: initial;
+
+    @include reset-font-smoothing;
+    word-wrap: break-word;
+  }
+
   position: absolute;
   width: 100%;
   height: 100%;
   font: 1em/1 sans-serif;
   box-sizing: border-box;
+
+  * {
+    @include reset-box-sizing;
+    position: relative;
+  }
 }
 
-a {
-  text-decoration: none;
+button {
+  @include reset-user-select-none;
 }
-
-// table {
-//   width: 100%;
-// }
-
-// #{$inline-block} {
-//   display: block;
-//   width: 100%;
-// }
