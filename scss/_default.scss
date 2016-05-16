@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
 
   &, * {
+    @include reset-box-model;
     @include reset-box-sizing;
     @include reset-font-smoothing;
     word-wrap: break-word;
