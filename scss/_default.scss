@@ -12,6 +12,7 @@ body {
     @include reset-box-sizing;
     @include reset-font-smoothing;
     word-wrap: break-word;
+    @include reset-text-inherit;
   }
 
   * {
