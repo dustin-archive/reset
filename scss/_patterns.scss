@@ -34,7 +34,7 @@
 
 @mixin reset-box-sizing {
   &, &::after, &::before {
-    box-sizing: border-box;
+    box-sizing: inherit;
   }
 }
 
