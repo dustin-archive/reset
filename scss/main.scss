@@ -2,17 +2,20 @@
 
 $pilot-reset: true;
 
-@import 'patterns';
-@import 'patterns-vendor';
-
 @charset 'UTF-8';
 
 * {
-  @include reset-background;
-  @include reset-box-model;
-  @include reset-box-sizing;
-  @include reset-text-inherit;
   position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit; // anchors
+  font: inherit; // inputs
+  text-decoration: inherit; // anchors
+
+  &, &::after, &::before {
+    box-sizing: inherit;
+  }
 }
 
 html, body {
@@ -30,5 +33,7 @@ body {
 }
 
 button {
-  @include reset-user-select-none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
