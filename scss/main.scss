@@ -1,5 +1,3 @@
-/*! pilot-reset v1.0.0 | MIT License | github.com/pilot-boilerplate/reset */
-
 $pilot-reset: true;
 
 @charset 'UTF-8';
@@ -9,9 +7,9 @@ $pilot-reset: true;
   margin: 0;
   padding: 0;
   border: 0;
-  color: inherit; // anchors
-  font: inherit; // inputs
-  text-decoration: inherit; // anchors
+  color: inherit; // a
+  font: inherit; // input
+  text-decoration: inherit; // a
 
   &, &::after, &::before {
     box-sizing: inherit;
