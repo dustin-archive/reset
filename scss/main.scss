@@ -8,7 +8,8 @@ $pilot-reset: true;
   padding: 0;
   border: 0;
   color: inherit; // a
-  font: inherit; // input
+  font: inherit; // input, th
+  text-align: inherit; // input
   text-decoration: inherit; // a
 
   &, &::after, &::before {
