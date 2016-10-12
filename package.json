@@ -1,0 +1,24 @@
+{
+  "name": "pilot-reset",
+  "version": "1.2.0",
+  "description": "Sweet reset styles",
+  "main": "scss/main.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilot-boilerplate/reset.git"
+  },
+  "author": "Dustin Dowell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pilot-boilerplate/reset/issues"
+  },
+  "homepage": "https://github.com/pilot-boilerplate/reset#readme",
+  "keywords": [
+    "pilot",
+    "boilerplate",
+    "reset",
+    "css",
+    "sass",
+    "scss"
+  ],
+}
