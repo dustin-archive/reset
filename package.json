@@ -1,6 +1,6 @@
 {
   "name": "pilot-reset",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Sweet reset styles",
   "main": "scss/main.scss",
   "repository": {
