@@ -21,11 +21,15 @@ html, body {
   min-height: 100%;
 }
 
+body, svg, table {
+  width: 100%;
+}
+
 body {
   position: absolute;
-  width: 100%;
   font: 400 1em/1 '-apple-system', BlinkMacSystemFont, sans-serif;
-  font-feature-settings: 'liga' 0;
+  // font-feature-settings: 'liga' 0;
+  // font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
   word-wrap: break-word;
@@ -33,14 +37,28 @@ body {
 
 a {
   cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 button {
   user-select: none;
 }
 
+// 1: BUG: IE10: Aspect ratio is not kept when resizing
+img {
+  width: auto; // 1
+  height: auto; // 1
+}
+
+svg {
+  display: block;
+  fill: currentColor;
+}
+
 table {
-  width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
 }
