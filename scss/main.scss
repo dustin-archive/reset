@@ -18,7 +18,7 @@ $pilot-reset: true;
 }
 
 html, body {
-  min-height: 100%;
+  height: 100%;
 }
 
 body, svg, table {
@@ -47,7 +47,7 @@ button {
   user-select: none;
 }
 
-// 1: BUG: IE10: Aspect ratio is not kept when resizing
+// 1: BUG: IE10: aspect ratio is not kept when resizing
 img {
   width: auto; // 1
   height: auto; // 1
