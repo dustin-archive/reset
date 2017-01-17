@@ -23,7 +23,6 @@ body, svg, table {
 
 body {
   font: 400 1em/1 '-apple-system', BlinkMacSystemFont, sans-serif;
-  text-rendering: optimizeLegibility;
   box-sizing: border-box;
   word-wrap: break-word;
 }
@@ -49,6 +48,7 @@ img {
 svg {
   display: block;
   fill: currentColor;
+  stroke: currentColor;
 }
 
 table {
