@@ -17,19 +17,12 @@ $pilot-reset: true;
   }
 }
 
-html, body {
-  height: 100%;
-}
-
 body, svg, table {
   width: 100%;
 }
 
 body {
-  position: absolute;
   font: 400 1em/1 '-apple-system', BlinkMacSystemFont, sans-serif;
-  // font-feature-settings: 'liga' 0;
-  // font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
   word-wrap: break-word;
