@@ -1,1 +1,1 @@
-# pilot-reset
+# reset
